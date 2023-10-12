@@ -1,0 +1,349 @@
+body{
+    background-image:  linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.8) 100%); 
+}
+img{
+    max-width: 100%;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    filter: grayscale(100%);
+}
+ul{
+    font-size: 20px;
+}
+i{
+    padding-left: 10px;    
+    color: #dee4e7;
+}
+i:hover{
+    transform: scale(1.5);
+}
+.nav-link{
+    color: #b6c8d4;
+}
+.nav-link:hover{
+    color: #54B4D3;
+}
+#about{
+    text-align: center;    
+}
+.img-jmbo{
+    height: 70vh;
+}
+.main_heading{
+    height: 100vh;
+}
+.skills h4{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+.awesome{
+    font-size: 25px;
+    padding: 3px;
+}
+.progressbar{
+    background: #959595;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+}
+.progressbar div{
+    height: 5px;
+    border-radius: 10px;
+    width: 0%;
+    /* background: red; */
+}
+.progressbar div span{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 10px;
+    float: right;
+    margin-top: -11px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+.c{
+    background: yellowgreen;
+    animation: c 1s linear forwards;
+}
+.ds{
+    background: yellow;
+    animation: ds 1s linear forwards;
+}
+.oops{
+    background: orange;
+    animation: oops 1s linear forwards;
+}
+.html{
+    background: green;
+    animation: html 1s linear forwards;
+}
+.css{
+    background: yellow;
+    animation: css 1s linear forwards;
+}
+.bootstrap{
+    background: yellowgreen;
+    animation: bootstrap 1s linear forwards;
+}
+.python{
+    background: yellow;
+    animation: python 1s linear forwards;
+}
+.js{
+    background: orange;
+    animation: js 1s linear forwards;
+}
+.sql{
+    background: yellow;
+    animation: sql 1s linear forwards;
+}
+.c span{
+    border: 1px solid yellowgreen;    
+}
+.ds span{
+    border: 1px solid yellow;    
+}
+.oops span{
+    border: 1px solid orange;    
+}
+.html span{
+    border: 1px solid green;    
+}
+.css span{
+    border: 1px solid yellow;    
+}
+.bootstrap span{
+    border: 1px solid yellowgreen;    
+}
+.python span{
+    border: 1px solid yellow;    
+}
+.js span{
+    border: 1px solid orange;    
+}
+.sql span{
+    border: 1px solid yellow;    
+}
+
+@keyframes c{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes ds{
+    100%{
+        width: 70%;
+    }
+}
+@keyframes oops{
+    100%{
+        width: 55%;
+    }
+}
+@keyframes html{
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes bootstrap{
+    100%{
+        width: 85%;
+    }
+}
+@keyframes python{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes js{
+    100%{
+        width: 60%;
+    }
+}
+@keyframes sql{
+    100%{
+        width: 70%;
+    }
+}
+.skills{
+    padding: 10px 20px 10px 20px;
+}
+.percentages{
+    padding: 10px 10px;
+}
+.percentages h4{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+.ten{
+    background: yellow;
+    animation: ten 1s linear forwards;
+}
+.twelve{
+    background: yellow;
+    animation: twelve 1s linear forwards;
+}
+.grad{
+    background: yellowgreen;
+    animation: grad 1s linear forwards;
+}
+.ten span{
+    border: 1px solid yellow;    
+}
+.twelve span{
+    border: 1px solid yellow;    
+}
+.grad span{
+    border: 1px solid yellowgreen;    
+}
+@keyframes ten{
+    100%{
+        width: 73%;
+    }
+}
+@keyframes twelve{
+    100%{
+        width: 70.2%;
+    }
+}
+@keyframes grad{
+    100%{
+        width: 80.7%;
+    }
+}
+.project{
+    height: 80vh;
+}
+
+@media only screen and (max-width: 700px){
+    .img-jmbo{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .main_heading{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .project{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 701px){
+    .img-jmbo{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 701px){
+    .main_heading{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 701px){
+    .project{
+        height: 100%;
+        width: 100%;
+    }
+}
+.contact{
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.contact-form .form-field{
+    position: relative;
+    margin: 32px 0;
+}
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border-width: 0 0 2px 0;
+    border-color: #54B4D3;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.contact-form .input-text:focus ~label,
+.contact-form .input-text:valid ~label{
+    transform: translateY(-25px);
+}
+.contact-form .input-text:focus{
+    outline: none;
+}
+.contact-form .label{
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: black;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    text-transform: capitalize;
+}
+select{
+    color: #54B4D3;
+    border-radius: 20px;
+    padding-left: 15px;
+    height: 30px;
+    width: 100%;
+}
+.contact-form .submit-btn{
+    display: inline-block;
+    background-image: linear-gradient(125deg,#54B4D3,white);
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+section .display-5{
+    letter-spacing: 3px;
+    color: #54B4D3;
+    background: linear-gradient(to left,white 0%,#54B4D3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.submit-btn{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+nav a.active {
+    color: aquamarine;
+    font-weight: bold;
+}
